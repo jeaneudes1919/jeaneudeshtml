@@ -1,0 +1,47 @@
+table {
+	width:50%;
+	height:50%;
+	border-collapse: collapse;
+	transform: translate(50%,70%);
+}
+
+caption {
+	font-family: Times New Roman, Arial, sans-serif;
+	font-size:30px;
+	text-decoration: underline;
+	line-height: 50px;
+}
+
+td, th {
+	border:1px solid #000;
+	padding: 10px;
+	text-align: center;
+	font-family: Times New Roman, Arial, sans-serif;
+	font-size:20px;
+}
+
+td
+{
+border: 2px solid black;
+}
+
+.IG {
+	color:Blue;
+	background-color: red;
+	font-weight: bold
+}
+
+.GRH {
+	background-color: yellow;
+}
+
+.IG {
+	font-size:24px;
+	font-family: Ariane;
+}
+
+
+.cellule1
+{
+font-color:Ariane;
+}

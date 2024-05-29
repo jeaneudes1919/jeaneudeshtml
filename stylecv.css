@@ -1,0 +1,80 @@
+body
+{
+	text-align: center;
+	font-family: Times New Roman, Arial, Verdana;
+	font-style: normal;
+}
+
+h1
+{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 40px;
+	font-weight: bold	
+}
+
+section
+{
+	text-align: center;
+}
+
+
+h2
+{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.identité
+{
+	margin-left: 500px;
+	font-size: 20px;
+	line-height: 1px;
+	text-align: justify;
+}
+
+.parcours
+{
+	margin-left: 500px;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: justify;
+}
+
+.loisir
+{
+	margin-left: 450px;
+	text-align: center;
+	line-height: 0px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+img
+{
+	widtch: 200px;
+	height: 200px;
+	
+}
+
+span
+{
+	text-decoration: underline;
+	
+}
+
+@keyframes gradientAnimation {
+	0% {
+		background-position: 0% 50%;
+	   }
+	100% {
+		background-position: 100% 50%;
+	   }
+}
+
+body {
+	background-color: rgba(117, 198, 117, 0.886);
+	background-size:200% 200%;
+	animation:gradientAnimation 100s ease infinite;
+}

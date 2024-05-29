@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="styleAccueil.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" style="height: 15%;">
+            <div class="col">
+                <iframe src="A.html" class="w-100 border border-primary" scrolling="no" style="height:100%;"></iframe>
+            </div>
+        </div>
+        <div class="row" style="height: 85%;">
+            <div class="col-md-2 border border-primary" style="height: 100vh;"> <!-- Ici j'ai ajouté une hauteur de 100vh -->
+                <iframe src="B.html" class="w-100" height="100%" frameborder="1"></iframe>
+            </div>
+            <div class="col-md-10 border border-primary" style="height: 100vh;"> <!-- Ici j'ai ajouté une hauteur de 100vh -->
+                <iframe src="C.html" class="w-100" height="100%" name="content" frameborder="1"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript et jQuery (optionnel) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
